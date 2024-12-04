@@ -38,7 +38,7 @@ def main(args):
     if not args.is_sample:
         trainer.train()
     else:
-        trainer.load(1)  # load model-4.pt # load the checkpoint
+        trainer.load(6)  # load model-6.pt # load the checkpoint
 
         samples_root = args.sample_outdir
         os.makedirs(samples_root, exist_ok=True)
@@ -74,7 +74,7 @@ if __name__ == "__main__":
         help="Dimension multipliers for the U-Net.",
     )
     parser.add_argument(
-        "--flash_attn", type=bool, default=True, help="Enable flash attention."
+        "--flash_attn", action="store_true", help="Enable flash attention."
     )
 
     # Diffusion hyperparameters
@@ -124,12 +124,11 @@ if __name__ == "__main__":
         help="Exponential moving average decay.",
     )
     parser.add_argument(
-        "--amp", type=bool, default=True, help="Enable automatic mixed precision."
+        "--amp", action="store_true", help="Enable automatic mixed precision."
     )
     parser.add_argument(
         "--calculate_fid",
-        type=bool,
-        default=False,
+        action="store_true",
         help="Calculate FID during training.",
     )
     parser.add_argument(
@@ -148,9 +147,7 @@ if __name__ == "__main__":
     # Sampling hyperparameters
     parser.add_argument(
         "--is_sample",
-        type=bool,
-        required=True,
-        default=False,
+        action="store_true",
         help="Do sampling or training",
     )
     parser.add_argument(
@@ -173,4 +170,5 @@ if __name__ == "__main__":
     )
 
     args = parser.parse_args()
+    print(args)
     main(args)
