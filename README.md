@@ -55,6 +55,19 @@ As mentioned in the paper, we have generated around **120,000** unconditional sy
 
 ---
 
+## Citation
+If you use the code or data from this repository, please cite [our paper](https://ieeexplore.ieee.org/document/10945534): 
+
+```bibtex
+@article{hosseini2025self,
+  title={Self-Supervised Learning Powered by Synthetic Data from Diffusion Models: Application to X-Ray Images},
+  author={Hosseini, Abdullah and Serag, Ahmed},
+  journal={IEEE Access},
+  year={2025},
+  publisher={IEEE}
+}
+``` 
+
 ## 🔗 Other Credits
 
 - [Denoising Diffusion Probabilistic Model (DDPM) Implementation](https://github.com/lucidrains/denoising-diffusion-pytorch)
