@@ -51,7 +51,7 @@ For training the Diffusion Model (DDPM), we use the following two datasets:
 - [NIH Chest X-ray](https://www.kaggle.com/datasets/nih-chest-xrays/data)
 - [COVIDx CXR-4](https://www.kaggle.com/datasets/andyczhao/covidx-cxr2)
 
-As mentioned in the paper, we have generated around **120,000** unconditional synthetic samples. The dataset is publicly available and can be found [here](link).
+As mentioned in the paper, we have generated around **120,000** unconditional synthetic samples. The dataset is publicly available and can be found https://huggingface.co/datasets/serag-ai/Synthetic-X-Ray-Dataset.
 
 ---
 
