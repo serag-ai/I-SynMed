@@ -1,4 +1,4 @@
-# I-SynMed: Self-Supervised Learning Powered by Synthetic Data from Diffusion Models: Application to Medical Images🩺🤖
+# [I-SynMed: Self-Supervised Learning Powered by Synthetic Data from Diffusion Models: Application to Medical Images](https://ieeexplore.ieee.org/document/10945534)🩺🤖
 
 This project explores the use of generative models, particularly Denoising Diffusion Prbabilistic Model, to generate synthetic Chest X-ray data. It focuses on pretraining self-supervised learning (SSL) models on this synthetic data and evaluating their effectiveness using classifiers and segmentation tasks. The goal is to assess whether synthetic data can retain critical medical biomarkers and facilitate reliable downstream tasks such as classification and segmentation.
 
