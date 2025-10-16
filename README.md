@@ -2,6 +2,10 @@
 
 This project explores the use of generative models, particularly Denoising Diffusion Prbabilistic Model, to generate synthetic Chest X-ray data. It focuses on pretraining self-supervised learning (SSL) models on this synthetic data and evaluating their effectiveness using classifiers and segmentation tasks. The goal is to assess whether synthetic data can retain critical medical biomarkers and facilitate reliable downstream tasks such as classification and segmentation.
 
+> **"Is synthetic data generation effective in maintaining clinical biomarkers? Investigating diffusion models across diverse imaging modalities"**  
+> *Abdullah Hosseini, and Ahmed Serag. Frontiers in Artificial Intelligence (2025)*
+> *[Downlad Paper](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1454441/full)*
+
 ## 🛠️ How to Run
 
 ### 1. Clone the repository:
